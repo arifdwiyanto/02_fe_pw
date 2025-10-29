@@ -47,7 +47,7 @@ export function AboutSection() {
                         <h3 className="text-2xl font-bold tracking-tighter">My Skills</h3>
                         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
                             {skills.map((skill) => (
-                                <Card key={skill.name} className="p-4 text-center font-medium bg-orange-50 hover:bg-slate-300">
+                                <Card key={skill.name} className="p-4 text-center font-medium bg-slate-100 hover:bg-slate-300">
                                     <div className="flex flex-col items-center gap-3">
                                         <div className="rounded-full p-2 inline-flex">
                                             <img src={skill.logo} alt={`${skill.name} logo`} className="h-15 w-15" />
@@ -63,7 +63,7 @@ export function AboutSection() {
                         <h3 className="text-2xl font-bold tracking-tighter">Key Values</h3>
                         <div className="grid gap-6 sm:grid-cols-3">
                             {values.map((value) => (
-                                <Card key={value.title} className="p-6 bg-orange-50 hover:bg-slate-300">
+                                <Card key={value.title} className="p-6 bg-slate-100 hover:bg-slate-300">
                                     <h4 className="text-xl font-semibold mb-2">{value.title}</h4>
                                     <p className="text-muted-foreground">{value.description}</p>
                                 </Card>

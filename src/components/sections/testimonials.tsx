@@ -49,7 +49,7 @@ export function TestimonialsSection() {
 
           <div className="grid gap-6 md:grid-cols-2 mt-8">
             {testimonials.map((testimonial, index) => (
-              <Card key={index} className="p-6">
+              <Card key={index} className="p-6 bg-slate-100">
                 <div className="space-y-4">
                   <p className="text-muted-foreground italic">"{testimonial.content}"</p>
 

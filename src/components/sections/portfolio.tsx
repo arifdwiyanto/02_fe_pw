@@ -23,7 +23,7 @@ export function PortfolioSection() {
             Selected projects that demonstrate practical skills and problem solving.
           </p>
 
-          <Card className="p-6 mt-6 grid gap-6 md:grid-cols-[1fr_420px] items-start">
+          <Card className="p-6 mt-6 grid gap-6 md:grid-cols-[1fr_420px] items-start bg-slate-100">
             <div>
               <h3 className="text-2xl font-semibold">{project.title}</h3>
               <p className="mt-2 text-muted-foreground">{project.description}</p>

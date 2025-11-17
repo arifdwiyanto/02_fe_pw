@@ -62,21 +62,16 @@ export function PortfolioSection() {
                   <h4 className="font-semibold">Project overview (STAR)</h4>
                   <ul className="mt-2 list-disc pl-5 space-y-2 text-sm">
                     <li>
-                      <strong>Situation:</strong> Users needed a simple, fast way to manage todos with
-                      an attractive interface that worked on mobile and desktop.
+                      <strong>Situation: </strong>{project.situation}
                     </li>
                     <li>
-                      <strong>Task:</strong> Build a responsive todo app that supports create, read,
-                      update, and delete (CRUD) operations and persists data.
+                      <strong>Task: </strong>{project.task}
                     </li>
                     <li>
-                      <strong>Action:</strong> Implemented a Next.js frontend with Tailwind CSS for a
-                      polished UI, added a lightweight Node.js API for data handling, and used
-                      client-side state with local persistence for instant UX.
+                      <strong>Action: </strong>{project.action}
                     </li>
                     <li>
-                      <strong>Result:</strong> Delivered a fast, responsive app with an intuitive UI—users
-                      can manage todos quickly; the design reduced friction and improved task flow.
+                      <strong>Result: </strong>{project.result}
                     </li>
                   </ul>
                 </div>
@@ -93,7 +88,7 @@ export function PortfolioSection() {
                 </div>
 
                 <div className="mt-6 flex gap-3">
-                  <a className="rounded-md border px-4 py-2 text-sm bg-orange-500 hover:bg-orange-600 text-white" href="https://github.com/arifdwiyanto/02_fe/blob/2f6915354298d805184e6694c37cb15c4925f11a/src/app/todo/page.tsx">
+                  <a className="rounded-md border px-4 py-2 text-sm bg-orange-500 hover:bg-orange-600 text-white" href={project.viewcode}>
                     View code
                   </a>
                 </div>

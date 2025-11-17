@@ -16,7 +16,7 @@ export function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-40 backdrop-blur-sm bg-background/60 border-b border-border">
+    <header className="sticky top-0 z-40 backdrop-blur-sm bg-background/60 border-b border-border px-4">
       <Container className="flex h-14 items-center justify-between">
         <Link href="#hero" className="font-bold">
           Arif

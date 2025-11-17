@@ -8,7 +8,7 @@ export function SkillsSection() {
   const devops = ["Docker", "Git", "CI/CD"];
 
   return (
-    <section id="skills" className="py-12 md:py-20 bg-muted/50">
+    <section id="skills" className="py-12 md:py-20 bg-muted/50 px-4">
       <Container>
         <div className="space-y-6">
           <div className="flex items-center gap-4">

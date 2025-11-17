@@ -28,7 +28,7 @@ export function AboutSection() {
     ];
 
     return (
-        <section id="about" className="py-12 md:py-20 bg-orange-100">
+        <section id="about" className="py-12 md:py-20 bg-orange-100 px-4">
             <Container>
                 <div className="space-y-12">
                     <div className="space-y-6">

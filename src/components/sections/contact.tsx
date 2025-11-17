@@ -16,18 +16,18 @@ export function ContactSection() {
   const socialLinks = [
     {
       name: "GitHub",
-      url: "https://github.com/yourusername",
+      url: "https://github.com/username",
       icon: <FaGithub className="w-5 h-5" aria-hidden />,
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://linkedin.com/in/username",
       icon: <FaLinkedin className="w-5 h-5" aria-hidden />,
     },
   ];
 
   return (
-    <section id="contact" className="py-12 md:py-20 bg-muted/50">
+    <section id="contact" className="py-12 md:py-20 bg-muted/50 px-4">
       <Container>
         <div className="space-y-6">
           <div className="flex items-center gap-4">

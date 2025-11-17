@@ -35,7 +35,7 @@ const experiences: ExperienceProps[] = [
 
 export function ExperienceSection() {
   return (
-    <section id="experience" className="py-12 md:py-20 bg-muted/50">
+    <section id="experience" className="py-12 md:py-20 bg-muted/50 px-4">
       <Container>
         <div className="space-y-6">
         <div className="flex items-center gap-4">
@@ -48,7 +48,7 @@ export function ExperienceSection() {
 
           <div className="space-y-6 mt-8">
             {experiences.map((exp, index) => (
-              <Card key={index} className="p-6">
+              <Card key={index} className="p-10 bg-slate-100 shadow-orange-500">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="space-y-2">
                     <h3 className="text-xl font-semibold">{exp.title}</h3>
@@ -58,7 +58,7 @@ export function ExperienceSection() {
                     {exp.period}
                   </p>
                 </div>
-                <ul className="mt-4 space-y-2 list-disc list-inside text-sm text-muted-foreground">
+                <ul className="mt-4 space-y-2 list-disc list-outside text-sm text-muted-foreground">
                   {exp.responsibilities.map((resp, idx) => (
                     <li key={idx}>{resp}</li>
                   ))}
